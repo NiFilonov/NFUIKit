@@ -11,11 +11,17 @@
 		B86FD44F26F771950047AE29 /* NFUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD44E26F771950047AE29 /* NFUIKitTests.swift */; };
 		B86FD45126F771950047AE29 /* NFUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B86FD44326F771950047AE29 /* NFUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B86FD46126F771DC0047AE29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD46026F771DC0047AE29 /* AppDelegate.swift */; };
-		B86FD46326F771DC0047AE29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD46226F771DC0047AE29 /* SceneDelegate.swift */; };
 		B86FD46526F771DC0047AE29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD46426F771DC0047AE29 /* ViewController.swift */; };
 		B86FD46826F771DC0047AE29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86FD46626F771DC0047AE29 /* Main.storyboard */; };
 		B86FD46A26F771DD0047AE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86FD46926F771DD0047AE29 /* Assets.xcassets */; };
 		B86FD46D26F771DD0047AE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86FD46B26F771DD0047AE29 /* LaunchScreen.storyboard */; };
+		B86FD47326F77B4A0047AE29 /* NFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47226F77B4A0047AE29 /* NFButton.swift */; };
+		B86FD47626F77B880047AE29 /* NFButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47526F77B880047AE29 /* NFButtonStyle.swift */; };
+		B86FD47826F77CDD0047AE29 /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47726F77CDD0047AE29 /* AppStyle.swift */; };
+		B86FD47A26F77E300047AE29 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47926F77E300047AE29 /* SceneDelegate.swift */; };
+		B86FD47D26F780A80047AE29 /* NFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47C26F780A80047AE29 /* NFViewController.swift */; };
+		B86FD48026F781F30047AE29 /* ButtonMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47F26F781F30047AE29 /* ButtonMain.swift */; };
+		B86FD48226F7831A0047AE29 /* ButtonCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD48126F7831A0047AE29 /* ButtonCancel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +43,18 @@
 		B86FD45026F771950047AE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B86FD45E26F771DC0047AE29 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86FD46026F771DC0047AE29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B86FD46226F771DC0047AE29 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B86FD46426F771DC0047AE29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B86FD46726F771DC0047AE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B86FD46926F771DD0047AE29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B86FD46C26F771DD0047AE29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B86FD46E26F771DD0047AE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86FD47226F77B4A0047AE29 /* NFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFButton.swift; sourceTree = "<group>"; };
+		B86FD47526F77B880047AE29 /* NFButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFButtonStyle.swift; sourceTree = "<group>"; };
+		B86FD47726F77CDD0047AE29 /* AppStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		B86FD47926F77E300047AE29 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B86FD47C26F780A80047AE29 /* NFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFViewController.swift; sourceTree = "<group>"; };
+		B86FD47F26F781F30047AE29 /* ButtonMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMain.swift; sourceTree = "<group>"; };
+		B86FD48126F7831A0047AE29 /* ButtonCancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCancel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +106,8 @@
 		B86FD44226F771950047AE29 /* NFUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B86FD47B26F780850047AE29 /* NFViewController */,
+				B86FD47426F77B780047AE29 /* NFButton */,
 				B86FD44326F771950047AE29 /* NFUIKit.h */,
 				B86FD44426F771950047AE29 /* Info.plist */,
 			);
@@ -112,15 +126,43 @@
 		B86FD45F26F771DC0047AE29 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				B86FD47E26F781DF0047AE29 /* ExampleUIKit */,
+				B86FD47926F77E300047AE29 /* SceneDelegate.swift */,
 				B86FD46026F771DC0047AE29 /* AppDelegate.swift */,
-				B86FD46226F771DC0047AE29 /* SceneDelegate.swift */,
 				B86FD46426F771DC0047AE29 /* ViewController.swift */,
 				B86FD46626F771DC0047AE29 /* Main.storyboard */,
 				B86FD46926F771DD0047AE29 /* Assets.xcassets */,
 				B86FD46B26F771DD0047AE29 /* LaunchScreen.storyboard */,
 				B86FD46E26F771DD0047AE29 /* Info.plist */,
+				B86FD47726F77CDD0047AE29 /* AppStyle.swift */,
 			);
 			path = Example;
+			sourceTree = "<group>";
+		};
+		B86FD47426F77B780047AE29 /* NFButton */ = {
+			isa = PBXGroup;
+			children = (
+				B86FD47226F77B4A0047AE29 /* NFButton.swift */,
+				B86FD47526F77B880047AE29 /* NFButtonStyle.swift */,
+			);
+			path = NFButton;
+			sourceTree = "<group>";
+		};
+		B86FD47B26F780850047AE29 /* NFViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B86FD47C26F780A80047AE29 /* NFViewController.swift */,
+			);
+			path = NFViewController;
+			sourceTree = "<group>";
+		};
+		B86FD47E26F781DF0047AE29 /* ExampleUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B86FD47F26F781F30047AE29 /* ButtonMain.swift */,
+				B86FD48126F7831A0047AE29 /* ButtonCancel.swift */,
+			);
+			path = ExampleUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +243,7 @@
 				TargetAttributes = {
 					B86FD43F26F771950047AE29 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					B86FD44826F771950047AE29 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -262,6 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86FD47326F77B4A0047AE29 /* NFButton.swift in Sources */,
+				B86FD47626F77B880047AE29 /* NFButtonStyle.swift in Sources */,
+				B86FD47D26F780A80047AE29 /* NFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +323,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86FD48026F781F30047AE29 /* ButtonMain.swift in Sources */,
 				B86FD46526F771DC0047AE29 /* ViewController.swift in Sources */,
 				B86FD46126F771DC0047AE29 /* AppDelegate.swift in Sources */,
-				B86FD46326F771DC0047AE29 /* SceneDelegate.swift in Sources */,
+				B86FD47826F77CDD0047AE29 /* AppStyle.swift in Sources */,
+				B86FD47A26F77E300047AE29 /* SceneDelegate.swift in Sources */,
+				B86FD48226F7831A0047AE29 /* ButtonCancel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +487,7 @@
 		B86FD45526F771950047AE29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ATS36AY4LN;
@@ -455,6 +505,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = nifilonov.NFUIKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -463,6 +514,7 @@
 		B86FD45626F771950047AE29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = ATS36AY4LN;
@@ -488,6 +540,7 @@
 		B86FD45826F771950047AE29 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ATS36AY4LN;
 				INFOPLIST_FILE = NFUIKitTests/Info.plist;
@@ -506,6 +559,7 @@
 		B86FD45926F771950047AE29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ATS36AY4LN;
 				INFOPLIST_FILE = NFUIKitTests/Info.plist;
@@ -529,7 +583,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ATS36AY4LN;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -549,7 +603,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ATS36AY4LN;
 				INFOPLIST_FILE = Example/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

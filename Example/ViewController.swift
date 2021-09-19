@@ -1,12 +1,8 @@
-import UIKit
+import NFUIKit
 
-class ViewController: UIViewController {
+class ViewController: NFViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
+    @IBOutlet weak var button: ButtonCancel!
 
 }
 
