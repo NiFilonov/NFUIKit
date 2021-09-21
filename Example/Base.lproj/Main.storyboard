@@ -24,17 +24,28 @@
                                 </constraints>
                                 <state key="normal" title="CustomButton"/>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nB1-hD-ZZd" customClass="NFTextField" customModule="NFUIKit">
+                                <rect key="frame" x="16" y="126" width="382" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="CKF-xY-yYA"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W0H-ut-c1l" secondAttribute="trailing" constant="16" id="AS5-rU-AAA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nB1-hD-ZZd" secondAttribute="trailing" constant="16" id="a2r-6N-VG3"/>
+                            <constraint firstItem="nB1-hD-ZZd" firstAttribute="top" secondItem="W0H-ut-c1l" secondAttribute="bottom" constant="16" id="cQH-v7-7FV"/>
                             <constraint firstItem="W0H-ut-c1l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wSV-V1-xda"/>
                             <constraint firstItem="W0H-ut-c1l" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="xYN-Tu-xip"/>
+                            <constraint firstItem="nB1-hD-ZZd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ygO-nY-Iuk"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="W0H-ut-c1l" id="z9i-im-gHc"/>
+                        <outlet property="textField" destination="nB1-hD-ZZd" id="CwD-yq-rL8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

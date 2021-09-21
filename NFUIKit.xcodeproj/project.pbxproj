@@ -22,6 +22,24 @@
 		B86FD47D26F780A80047AE29 /* NFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47C26F780A80047AE29 /* NFViewController.swift */; };
 		B86FD48026F781F30047AE29 /* ButtonMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD47F26F781F30047AE29 /* ButtonMain.swift */; };
 		B86FD48226F7831A0047AE29 /* ButtonCancel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD48126F7831A0047AE29 /* ButtonCancel.swift */; };
+		B86FD48726F7A14B0047AE29 /* NFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD48626F7A14B0047AE29 /* NFTextField.swift */; };
+		B86FD48B26F7A2B40047AE29 /* NFTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD48A26F7A2B40047AE29 /* NFTextFieldStyle.swift */; };
+		B86FD48D26F7A31F0047AE29 /* NFTextFieldMask.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD48C26F7A31F0047AE29 /* NFTextFieldMask.swift */; };
+		B86FD48F26F7A6AA0047AE29 /* NFTextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD48E26F7A6AA0047AE29 /* NFTextFieldValidator.swift */; };
+		B86FD49126F7AA9E0047AE29 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86FD49026F7AA9E0047AE29 /* Media.xcassets */; };
+		B86FD49426F7ABC20047AE29 /* NFPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD49326F7ABC20047AE29 /* NFPasswordTextField.swift */; };
+		B86FD49726F7AC5B0047AE29 /* NFPasswordTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86FD49626F7AC5B0047AE29 /* NFPasswordTextField.xib */; };
+		B872DF8526F9D2BE00643D4D /* NFLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8426F9D2BE00643D4D /* NFLoginViewController.swift */; };
+		B872DF8926F9D31400643D4D /* NFRootAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8826F9D31400643D4D /* NFRootAuthView.swift */; };
+		B872DF8B26F9D34900643D4D /* NFRootAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8A26F9D34900643D4D /* NFRootAuthViewModel.swift */; };
+		B872DF8E26F9D3E500643D4D /* NFFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8D26F9D3E500643D4D /* NFFormView.swift */; };
+		B899DED626F8C6700050A6F6 /* NFIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DED526F8C6700050A6F6 /* NFIconView.swift */; };
+		B899DEE026F8CABB0050A6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEDF26F8CABB0050A6F6 /* AppDelegate.swift */; };
+		B899DEE226F8CABB0050A6F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEE126F8CABB0050A6F6 /* SceneDelegate.swift */; };
+		B899DEE426F8CABB0050A6F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEE326F8CABB0050A6F6 /* ViewController.swift */; };
+		B899DEE726F8CABB0050A6F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B899DEE526F8CABB0050A6F6 /* Main.storyboard */; };
+		B899DEE926F8CABC0050A6F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B899DEE826F8CABC0050A6F6 /* Assets.xcassets */; };
+		B899DEEC26F8CABC0050A6F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B899DEEA26F8CABC0050A6F6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +73,26 @@
 		B86FD47C26F780A80047AE29 /* NFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFViewController.swift; sourceTree = "<group>"; };
 		B86FD47F26F781F30047AE29 /* ButtonMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonMain.swift; sourceTree = "<group>"; };
 		B86FD48126F7831A0047AE29 /* ButtonCancel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonCancel.swift; sourceTree = "<group>"; };
+		B86FD48626F7A14B0047AE29 /* NFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTextField.swift; sourceTree = "<group>"; };
+		B86FD48A26F7A2B40047AE29 /* NFTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTextFieldStyle.swift; sourceTree = "<group>"; };
+		B86FD48C26F7A31F0047AE29 /* NFTextFieldMask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTextFieldMask.swift; sourceTree = "<group>"; };
+		B86FD48E26F7A6AA0047AE29 /* NFTextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFTextFieldValidator.swift; sourceTree = "<group>"; };
+		B86FD49026F7AA9E0047AE29 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		B86FD49326F7ABC20047AE29 /* NFPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFPasswordTextField.swift; sourceTree = "<group>"; };
+		B86FD49626F7AC5B0047AE29 /* NFPasswordTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NFPasswordTextField.xib; sourceTree = "<group>"; };
+		B872DF8426F9D2BE00643D4D /* NFLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLoginViewController.swift; sourceTree = "<group>"; };
+		B872DF8826F9D31400643D4D /* NFRootAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFRootAuthView.swift; sourceTree = "<group>"; };
+		B872DF8A26F9D34900643D4D /* NFRootAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFRootAuthViewModel.swift; sourceTree = "<group>"; };
+		B872DF8D26F9D3E500643D4D /* NFFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFFormView.swift; sourceTree = "<group>"; };
+		B899DED526F8C6700050A6F6 /* NFIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFIconView.swift; sourceTree = "<group>"; };
+		B899DEDD26F8CABB0050A6F6 /* Ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B899DEDF26F8CABB0050A6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B899DEE126F8CABB0050A6F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B899DEE326F8CABB0050A6F6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B899DEE626F8CABB0050A6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B899DEE826F8CABC0050A6F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B899DEEB26F8CABC0050A6F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B899DEED26F8CABC0050A6F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +118,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B899DEDA26F8CABB0050A6F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -89,6 +134,7 @@
 				B86FD44226F771950047AE29 /* NFUIKit */,
 				B86FD44D26F771950047AE29 /* NFUIKitTests */,
 				B86FD45F26F771DC0047AE29 /* Example */,
+				B899DEDE26F8CABB0050A6F6 /* Ex */,
 				B86FD44126F771950047AE29 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,6 +145,7 @@
 				B86FD44026F771950047AE29 /* NFUIKit.framework */,
 				B86FD44926F771950047AE29 /* NFUIKitTests.xctest */,
 				B86FD45E26F771DC0047AE29 /* Example.app */,
+				B899DEDD26F8CABB0050A6F6 /* Ex.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,10 +153,14 @@
 		B86FD44226F771950047AE29 /* NFUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B872DF8C26F9D3D200643D4D /* NFFormView */,
+				B872DF8226F9D28E00643D4D /* Templates */,
+				B899DED326F8C5E40050A6F6 /* Buttons */,
+				B86FD48326F7A0820047AE29 /* NFTextField */,
 				B86FD47B26F780850047AE29 /* NFViewController */,
-				B86FD47426F77B780047AE29 /* NFButton */,
 				B86FD44326F771950047AE29 /* NFUIKit.h */,
 				B86FD44426F771950047AE29 /* Info.plist */,
+				B86FD49026F7AA9E0047AE29 /* Media.xcassets */,
 			);
 			path = NFUIKit;
 			sourceTree = "<group>";
@@ -163,6 +214,108 @@
 				B86FD48126F7831A0047AE29 /* ButtonCancel.swift */,
 			);
 			path = ExampleUIKit;
+			sourceTree = "<group>";
+		};
+		B86FD48326F7A0820047AE29 /* NFTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B86FD49226F7AB930047AE29 /* Childs */,
+				B86FD48626F7A14B0047AE29 /* NFTextField.swift */,
+				B86FD48A26F7A2B40047AE29 /* NFTextFieldStyle.swift */,
+				B86FD48C26F7A31F0047AE29 /* NFTextFieldMask.swift */,
+				B86FD48E26F7A6AA0047AE29 /* NFTextFieldValidator.swift */,
+			);
+			path = NFTextField;
+			sourceTree = "<group>";
+		};
+		B86FD49226F7AB930047AE29 /* Childs */ = {
+			isa = PBXGroup;
+			children = (
+				B86FD49526F7AC410047AE29 /* Password */,
+			);
+			path = Childs;
+			sourceTree = "<group>";
+		};
+		B86FD49526F7AC410047AE29 /* Password */ = {
+			isa = PBXGroup;
+			children = (
+				B86FD49326F7ABC20047AE29 /* NFPasswordTextField.swift */,
+				B86FD49626F7AC5B0047AE29 /* NFPasswordTextField.xib */,
+			);
+			path = Password;
+			sourceTree = "<group>";
+		};
+		B872DF8226F9D28E00643D4D /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				B872DF8626F9D2DA00643D4D /* Base */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		B872DF8326F9D2A100643D4D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B872DF8426F9D2BE00643D4D /* NFLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B872DF8626F9D2DA00643D4D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				B872DF8726F9D2F100643D4D /* Root */,
+				B872DF8326F9D2A100643D4D /* Login */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		B872DF8726F9D2F100643D4D /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B872DF8826F9D31400643D4D /* NFRootAuthView.swift */,
+				B872DF8A26F9D34900643D4D /* NFRootAuthViewModel.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		B872DF8C26F9D3D200643D4D /* NFFormView */ = {
+			isa = PBXGroup;
+			children = (
+				B872DF8D26F9D3E500643D4D /* NFFormView.swift */,
+			);
+			path = NFFormView;
+			sourceTree = "<group>";
+		};
+		B899DED326F8C5E40050A6F6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B899DED426F8C6270050A6F6 /* NFIcon */,
+				B86FD47426F77B780047AE29 /* NFButton */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		B899DED426F8C6270050A6F6 /* NFIcon */ = {
+			isa = PBXGroup;
+			children = (
+				B899DED526F8C6700050A6F6 /* NFIconView.swift */,
+			);
+			path = NFIcon;
+			sourceTree = "<group>";
+		};
+		B899DEDE26F8CABB0050A6F6 /* Ex */ = {
+			isa = PBXGroup;
+			children = (
+				B899DEDF26F8CABB0050A6F6 /* AppDelegate.swift */,
+				B899DEE126F8CABB0050A6F6 /* SceneDelegate.swift */,
+				B899DEE326F8CABB0050A6F6 /* ViewController.swift */,
+				B899DEE526F8CABB0050A6F6 /* Main.storyboard */,
+				B899DEE826F8CABC0050A6F6 /* Assets.xcassets */,
+				B899DEEA26F8CABC0050A6F6 /* LaunchScreen.storyboard */,
+				B899DEED26F8CABC0050A6F6 /* Info.plist */,
+			);
+			path = Ex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +385,23 @@
 			productReference = B86FD45E26F771DC0047AE29 /* Example.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B899DEDC26F8CABB0050A6F6 /* Ex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B899DEEE26F8CABC0050A6F6 /* Build configuration list for PBXNativeTarget "Ex" */;
+			buildPhases = (
+				B899DED926F8CABB0050A6F6 /* Sources */,
+				B899DEDA26F8CABB0050A6F6 /* Frameworks */,
+				B899DEDB26F8CABB0050A6F6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ex;
+			productName = Ex;
+			productReference = B899DEDD26F8CABB0050A6F6 /* Ex.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -249,6 +419,9 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					B86FD45D26F771DC0047AE29 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B899DEDC26F8CABB0050A6F6 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
@@ -269,6 +442,7 @@
 				B86FD43F26F771950047AE29 /* NFUIKit */,
 				B86FD44826F771950047AE29 /* NFUIKitTests */,
 				B86FD45D26F771DC0047AE29 /* Example */,
+				B899DEDC26F8CABB0050A6F6 /* Ex */,
 			);
 		};
 /* End PBXProject section */
@@ -278,6 +452,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86FD49126F7AA9E0047AE29 /* Media.xcassets in Resources */,
+				B86FD49726F7AC5B0047AE29 /* NFPasswordTextField.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +474,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B899DEDB26F8CABB0050A6F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B899DEEC26F8CABC0050A6F6 /* LaunchScreen.storyboard in Resources */,
+				B899DEE926F8CABC0050A6F6 /* Assets.xcassets in Resources */,
+				B899DEE726F8CABB0050A6F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -305,8 +491,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86FD48F26F7A6AA0047AE29 /* NFTextFieldValidator.swift in Sources */,
+				B86FD48B26F7A2B40047AE29 /* NFTextFieldStyle.swift in Sources */,
+				B872DF8B26F9D34900643D4D /* NFRootAuthViewModel.swift in Sources */,
+				B872DF8526F9D2BE00643D4D /* NFLoginViewController.swift in Sources */,
+				B86FD48D26F7A31F0047AE29 /* NFTextFieldMask.swift in Sources */,
 				B86FD47326F77B4A0047AE29 /* NFButton.swift in Sources */,
+				B872DF8E26F9D3E500643D4D /* NFFormView.swift in Sources */,
+				B86FD49426F7ABC20047AE29 /* NFPasswordTextField.swift in Sources */,
+				B86FD48726F7A14B0047AE29 /* NFTextField.swift in Sources */,
+				B872DF8926F9D31400643D4D /* NFRootAuthView.swift in Sources */,
 				B86FD47626F77B880047AE29 /* NFButtonStyle.swift in Sources */,
+				B899DED626F8C6700050A6F6 /* NFIconView.swift in Sources */,
 				B86FD47D26F780A80047AE29 /* NFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +525,16 @@
 				B86FD47826F77CDD0047AE29 /* AppStyle.swift in Sources */,
 				B86FD47A26F77E300047AE29 /* SceneDelegate.swift in Sources */,
 				B86FD48226F7831A0047AE29 /* ButtonCancel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B899DED926F8CABB0050A6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B899DEE426F8CABB0050A6F6 /* ViewController.swift in Sources */,
+				B899DEE026F8CABB0050A6F6 /* AppDelegate.swift in Sources */,
+				B899DEE226F8CABB0050A6F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +561,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				B86FD46C26F771DD0047AE29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B899DEE526F8CABB0050A6F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B899DEE626F8CABB0050A6F6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B899DEEA26F8CABC0050A6F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B899DEEB26F8CABC0050A6F6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -615,6 +837,44 @@
 			};
 			name = Release;
 		};
+		B899DEEF26F8CABC0050A6F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATS36AY4LN;
+				INFOPLIST_FILE = Ex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nifilonov.Ex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B899DEF026F8CABC0050A6F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATS36AY4LN;
+				INFOPLIST_FILE = Ex/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nifilonov.Ex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -650,6 +910,15 @@
 			buildConfigurations = (
 				B86FD47026F771DD0047AE29 /* Debug */,
 				B86FD47126F771DD0047AE29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B899DEEE26F8CABC0050A6F6 /* Build configuration list for PBXNativeTarget "Ex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B899DEEF26F8CABC0050A6F6 /* Debug */,
+				B899DEF026F8CABC0050A6F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
