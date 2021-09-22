@@ -27,6 +27,10 @@ extension NFViewController {
             private lazy var formView: NFFormView = {
                 let formView = NFFormView()
                 formView.translatesAutoresizingMaskIntoConstraints = false
+                formView.addInputViews([NFFormInputItem(name: "email",
+                                                        view: NFTextField(frame: .zero)),
+                                        NFFormInputItem(name: "password",
+                                                        view: NFTextField(frame: .zero))])
                 return formView
             }()
             
@@ -42,7 +46,7 @@ extension NFViewController {
             private var mainTitleText: NSAttributedString
             private var descriptionTitleText: NSAttributedString
             
-            init(viewControllerStyle: NFViewControllerStyle,
+            fileprivate init(viewControllerStyle: NFViewControllerStyle,
                  formStyle: NFFormStyle,
                  buttonStyle: NFButtonStyle,
                  mainTitleText: NSAttributedString,
@@ -98,8 +102,7 @@ extension NFViewController {
                     formView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
                     formView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
                     formView.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: Metric.doubleModule),
-                    formView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -Metric.doubleModule),
-                    formView.heightAnchor.constraint(equalToConstant: 200.0)
+                    formView.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -Metric.doubleModule)
                 ])
             }
             
