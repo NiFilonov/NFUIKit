@@ -1,16 +1,26 @@
 import NFUIKit
 
 class ViewController: NFViewController {
-
+    
     @IBOutlet weak var button: ButtonCancel!
     @IBOutlet weak var textField: NFTextField!
+    @IBOutlet weak var form: NFFormView!
     
     override func viewDidLoad() {
-        textField.showError("Some error")
-        textField.setStyle(NFTextFieldStyle(cornerRadius: 18.0,
-                                            borderWidth: 1.0,
-                                            borderColor: .gray,
-                                            textColor: .black))
+        super.viewDidLoad()
+        
+        button.setStyle(AppStyle.ButtonStyle.cancel)
+        button.addTarget(self, action: #selector(showLogin), for: .touchUpInside)
+    }
+    
+    @objc func showLogin() {
+        let login = NFViewController.Templates
+            .loginViewController(with: AppStyle.ViewControllerStyle.basic,
+                                 formStyle: AppStyle.FormStyle.login,
+                                 buttonStyle: AppStyle.ButtonStyle.cancel,
+                                 mainTitleText: "Login".mainTitle,
+                                 descriptionTitleText: "Please sign in to continue".descriptionTitle)
+        navigationController?.pushViewController(login, animated: true)
     }
     
 }

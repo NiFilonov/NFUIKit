@@ -2,17 +2,19 @@ import UIKit
 
 open class NFButton: UIButton {
     
+    private var style: NFButtonStyle?
+    
     open override func layoutSubviews() {
         super.layoutSubviews()
         updateUI()
     }
     
-    open func makeStyle() -> NFButtonStyle? {
-        return nil
+    open func setStyle(_ style: NFButtonStyle) {
+        self.style = style
     }
     
     private func updateUI() {
-        guard let style = makeStyle() else {
+        guard let style = style else {
             print("NFButton - style doesn't setted")
             return
         }

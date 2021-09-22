@@ -33,6 +33,10 @@ public class NFTextField: UIView {
         setupUI()
     }
     
+    public func setText(_ text: String) {
+        textField.text = text
+    }
+    
     public func setStyle(_ style: NFTextFieldStyle) {
         textField.layer.cornerRadius = style.cornerRadius
         textField.layer.borderWidth = style.borderWidth
@@ -84,6 +88,15 @@ public class NFTextField: UIView {
             messageLabel.topAnchor.constraint(equalTo: textField.bottomAnchor),
             messageLabel.bottomAnchor.constraint(equalTo: bottomAnchor)
         ])
+    }
+    
+}
+
+
+extension NFTextField: NFFormInputView {
+    
+    public func getValue() -> String {
+        return textField.text ?? ""
     }
     
 }

@@ -29,10 +29,14 @@
 		B86FD49126F7AA9E0047AE29 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86FD49026F7AA9E0047AE29 /* Media.xcassets */; };
 		B86FD49426F7ABC20047AE29 /* NFPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FD49326F7ABC20047AE29 /* NFPasswordTextField.swift */; };
 		B86FD49726F7AC5B0047AE29 /* NFPasswordTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86FD49626F7AC5B0047AE29 /* NFPasswordTextField.xib */; };
-		B872DF8526F9D2BE00643D4D /* NFLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8426F9D2BE00643D4D /* NFLoginViewController.swift */; };
-		B872DF8926F9D31400643D4D /* NFRootAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8826F9D31400643D4D /* NFRootAuthView.swift */; };
-		B872DF8B26F9D34900643D4D /* NFRootAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8A26F9D34900643D4D /* NFRootAuthViewModel.swift */; };
 		B872DF8E26F9D3E500643D4D /* NFFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF8D26F9D3E500643D4D /* NFFormView.swift */; };
+		B872DF9326FA277F00643D4D /* NFFormInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF9226FA277F00643D4D /* NFFormInputView.swift */; };
+		B872DF9A26FA2DAF00643D4D /* NFFormStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DF9926FA2DAF00643D4D /* NFFormStyle.swift */; };
+		B872DFA126FA679C00643D4D /* NFLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFA026FA679C00643D4D /* NFLoginViewController.swift */; };
+		B872DFA426FA68EF00643D4D /* Metric.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFA326FA68EF00643D4D /* Metric.swift */; };
+		B872DFA626FA6E6300643D4D /* NFViewControllerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFA526FA6E6300643D4D /* NFViewControllerStyle.swift */; };
+		B872DFA926FB163700643D4D /* NFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFA826FB163700643D4D /* NFLabel.swift */; };
+		B872DFAB26FB189700643D4D /* NFLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFAA26FB189700643D4D /* NFLabelStyle.swift */; };
 		B899DED626F8C6700050A6F6 /* NFIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DED526F8C6700050A6F6 /* NFIconView.swift */; };
 		B899DEE026F8CABB0050A6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEDF26F8CABB0050A6F6 /* AppDelegate.swift */; };
 		B899DEE226F8CABB0050A6F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEE126F8CABB0050A6F6 /* SceneDelegate.swift */; };
@@ -80,10 +84,14 @@
 		B86FD49026F7AA9E0047AE29 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		B86FD49326F7ABC20047AE29 /* NFPasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFPasswordTextField.swift; sourceTree = "<group>"; };
 		B86FD49626F7AC5B0047AE29 /* NFPasswordTextField.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NFPasswordTextField.xib; sourceTree = "<group>"; };
-		B872DF8426F9D2BE00643D4D /* NFLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLoginViewController.swift; sourceTree = "<group>"; };
-		B872DF8826F9D31400643D4D /* NFRootAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFRootAuthView.swift; sourceTree = "<group>"; };
-		B872DF8A26F9D34900643D4D /* NFRootAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFRootAuthViewModel.swift; sourceTree = "<group>"; };
 		B872DF8D26F9D3E500643D4D /* NFFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFFormView.swift; sourceTree = "<group>"; };
+		B872DF9226FA277F00643D4D /* NFFormInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFFormInputView.swift; sourceTree = "<group>"; };
+		B872DF9926FA2DAF00643D4D /* NFFormStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFFormStyle.swift; sourceTree = "<group>"; };
+		B872DFA026FA679C00643D4D /* NFLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLoginViewController.swift; sourceTree = "<group>"; };
+		B872DFA326FA68EF00643D4D /* Metric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Metric.swift; sourceTree = "<group>"; };
+		B872DFA526FA6E6300643D4D /* NFViewControllerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFViewControllerStyle.swift; sourceTree = "<group>"; };
+		B872DFA826FB163700643D4D /* NFLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLabel.swift; sourceTree = "<group>"; };
+		B872DFAA26FB189700643D4D /* NFLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLabelStyle.swift; sourceTree = "<group>"; };
 		B899DED526F8C6700050A6F6 /* NFIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFIconView.swift; sourceTree = "<group>"; };
 		B899DEDD26F8CABB0050A6F6 /* Ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B899DEDF26F8CABB0050A6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -153,8 +161,9 @@
 		B86FD44226F771950047AE29 /* NFUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B872DFA726FB162000643D4D /* NFLabel */,
+				B872DFA226FA68E100643D4D /* Metrics */,
 				B872DF8C26F9D3D200643D4D /* NFFormView */,
-				B872DF8226F9D28E00643D4D /* Templates */,
 				B899DED326F8C5E40050A6F6 /* Buttons */,
 				B86FD48326F7A0820047AE29 /* NFTextField */,
 				B86FD47B26F780850047AE29 /* NFViewController */,
@@ -202,7 +211,9 @@
 		B86FD47B26F780850047AE29 /* NFViewController */ = {
 			isa = PBXGroup;
 			children = (
+				B872DF9E26FA677400643D4D /* Templates */,
 				B86FD47C26F780A80047AE29 /* NFViewController.swift */,
+				B872DFA526FA6E6300643D4D /* NFViewControllerStyle.swift */,
 			);
 			path = NFViewController;
 			sourceTree = "<group>";
@@ -245,46 +256,55 @@
 			path = Password;
 			sourceTree = "<group>";
 		};
-		B872DF8226F9D28E00643D4D /* Templates */ = {
+		B872DF8C26F9D3D200643D4D /* NFFormView */ = {
 			isa = PBXGroup;
 			children = (
-				B872DF8626F9D2DA00643D4D /* Base */,
+				B872DF9426FA27E800643D4D /* InputViews */,
+				B872DF8D26F9D3E500643D4D /* NFFormView.swift */,
+				B872DF9926FA2DAF00643D4D /* NFFormStyle.swift */,
+			);
+			path = NFFormView;
+			sourceTree = "<group>";
+		};
+		B872DF9426FA27E800643D4D /* InputViews */ = {
+			isa = PBXGroup;
+			children = (
+				B872DF9226FA277F00643D4D /* NFFormInputView.swift */,
+			);
+			path = InputViews;
+			sourceTree = "<group>";
+		};
+		B872DF9E26FA677400643D4D /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				B872DF9F26FA678100643D4D /* Login */,
 			);
 			path = Templates;
 			sourceTree = "<group>";
 		};
-		B872DF8326F9D2A100643D4D /* Login */ = {
+		B872DF9F26FA678100643D4D /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				B872DF8426F9D2BE00643D4D /* NFLoginViewController.swift */,
+				B872DFA026FA679C00643D4D /* NFLoginViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
 		};
-		B872DF8626F9D2DA00643D4D /* Base */ = {
+		B872DFA226FA68E100643D4D /* Metrics */ = {
 			isa = PBXGroup;
 			children = (
-				B872DF8726F9D2F100643D4D /* Root */,
-				B872DF8326F9D2A100643D4D /* Login */,
+				B872DFA326FA68EF00643D4D /* Metric.swift */,
 			);
-			path = Base;
+			path = Metrics;
 			sourceTree = "<group>";
 		};
-		B872DF8726F9D2F100643D4D /* Root */ = {
+		B872DFA726FB162000643D4D /* NFLabel */ = {
 			isa = PBXGroup;
 			children = (
-				B872DF8826F9D31400643D4D /* NFRootAuthView.swift */,
-				B872DF8A26F9D34900643D4D /* NFRootAuthViewModel.swift */,
+				B872DFA826FB163700643D4D /* NFLabel.swift */,
+				B872DFAA26FB189700643D4D /* NFLabelStyle.swift */,
 			);
-			path = Root;
-			sourceTree = "<group>";
-		};
-		B872DF8C26F9D3D200643D4D /* NFFormView */ = {
-			isa = PBXGroup;
-			children = (
-				B872DF8D26F9D3E500643D4D /* NFFormView.swift */,
-			);
-			path = NFFormView;
+			path = NFLabel;
 			sourceTree = "<group>";
 		};
 		B899DED326F8C5E40050A6F6 /* Buttons */ = {
@@ -493,17 +513,21 @@
 			files = (
 				B86FD48F26F7A6AA0047AE29 /* NFTextFieldValidator.swift in Sources */,
 				B86FD48B26F7A2B40047AE29 /* NFTextFieldStyle.swift in Sources */,
-				B872DF8B26F9D34900643D4D /* NFRootAuthViewModel.swift in Sources */,
-				B872DF8526F9D2BE00643D4D /* NFLoginViewController.swift in Sources */,
 				B86FD48D26F7A31F0047AE29 /* NFTextFieldMask.swift in Sources */,
 				B86FD47326F77B4A0047AE29 /* NFButton.swift in Sources */,
 				B872DF8E26F9D3E500643D4D /* NFFormView.swift in Sources */,
+				B872DFA426FA68EF00643D4D /* Metric.swift in Sources */,
 				B86FD49426F7ABC20047AE29 /* NFPasswordTextField.swift in Sources */,
 				B86FD48726F7A14B0047AE29 /* NFTextField.swift in Sources */,
-				B872DF8926F9D31400643D4D /* NFRootAuthView.swift in Sources */,
 				B86FD47626F77B880047AE29 /* NFButtonStyle.swift in Sources */,
 				B899DED626F8C6700050A6F6 /* NFIconView.swift in Sources */,
 				B86FD47D26F780A80047AE29 /* NFViewController.swift in Sources */,
+				B872DF9A26FA2DAF00643D4D /* NFFormStyle.swift in Sources */,
+				B872DFA926FB163700643D4D /* NFLabel.swift in Sources */,
+				B872DF9326FA277F00643D4D /* NFFormInputView.swift in Sources */,
+				B872DFAB26FB189700643D4D /* NFLabelStyle.swift in Sources */,
+				B872DFA626FA6E6300643D4D /* NFViewControllerStyle.swift in Sources */,
+				B872DFA126FA679C00643D4D /* NFLoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
