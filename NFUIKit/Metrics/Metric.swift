@@ -8,6 +8,10 @@ struct Metric {
     
     static let tripleModule = module * 3
     
+    static let mediumSpacing = module * 4
+    
+    static let largeSpacing = module * 5
+    
     static let buttonHeight: CGFloat = 56.0
     
 }

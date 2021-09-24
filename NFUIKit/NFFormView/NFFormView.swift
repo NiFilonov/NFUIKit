@@ -11,7 +11,7 @@ public class NFFormView: UIView {
     private lazy var stackView: UIStackView = {
         let stackView = UIStackView()
         stackView.axis = .vertical
-        stackView.distribution = .equalSpacing
+        stackView.distribution = .fillEqually
         stackView.spacing = 30
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -47,7 +47,19 @@ public class NFFormView: UIView {
     }
     
     private func setupUI() {
+        setupContentView()
         setupStackView()
+    }
+    
+    private func setupContentView() {
+        addSubview(contentView)
+        
+        NSLayoutConstraint.activate([
+            contentView.leadingAnchor.constraint(equalTo: leadingAnchor),
+            contentView.trailingAnchor.constraint(equalTo: trailingAnchor),
+            contentView.topAnchor.constraint(equalTo: topAnchor),
+            contentView.bottomAnchor.constraint(equalTo: bottomAnchor)
+        ])
     }
     
     private func setupStackView() {

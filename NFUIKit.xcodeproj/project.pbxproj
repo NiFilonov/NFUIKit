@@ -37,7 +37,15 @@
 		B872DFA626FA6E6300643D4D /* NFViewControllerStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFA526FA6E6300643D4D /* NFViewControllerStyle.swift */; };
 		B872DFA926FB163700643D4D /* NFLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFA826FB163700643D4D /* NFLabel.swift */; };
 		B872DFAB26FB189700643D4D /* NFLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFAA26FB189700643D4D /* NFLabelStyle.swift */; };
-		B899DED626F8C6700050A6F6 /* NFIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DED526F8C6700050A6F6 /* NFIconView.swift */; };
+		B872DFAE26FB728900643D4D /* NFLITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFAD26FB728900643D4D /* NFLITextField.swift */; };
+		B872DFB426FB73AD00643D4D /* NFStatesIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFB326FB73AD00643D4D /* NFStatesIconView.swift */; };
+		B872DFB626FB9BC500643D4D /* NFStatesIconViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFB526FB9BC400643D4D /* NFStatesIconViewStyle.swift */; };
+		B872DFB826FB9C7D00643D4D /* NFLITextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFB726FB9C7D00643D4D /* NFLITextFieldStyle.swift */; };
+		B872DFBA26FC5D0C00643D4D /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFB926FC5D0C00643D4D /* UIColor+Hex.swift */; };
+		B872DFBC26FD0B0400643D4D /* NFRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFBB26FD0B0400643D4D /* NFRoundedButton.swift */; };
+		B872DFBF26FD0B4F00643D4D /* NFRoundedButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFBE26FD0B4F00643D4D /* NFRoundedButtonStyle.swift */; };
+		B872DFC526FD0CD800643D4D /* NFImageConvertableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = B872DFC426FD0CD700643D4D /* NFImageConvertableObject.swift */; };
+		B899DED626F8C6700050A6F6 /* NFButtonIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DED526F8C6700050A6F6 /* NFButtonIconView.swift */; };
 		B899DEE026F8CABB0050A6F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEDF26F8CABB0050A6F6 /* AppDelegate.swift */; };
 		B899DEE226F8CABB0050A6F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEE126F8CABB0050A6F6 /* SceneDelegate.swift */; };
 		B899DEE426F8CABB0050A6F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899DEE326F8CABB0050A6F6 /* ViewController.swift */; };
@@ -92,7 +100,15 @@
 		B872DFA526FA6E6300643D4D /* NFViewControllerStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFViewControllerStyle.swift; sourceTree = "<group>"; };
 		B872DFA826FB163700643D4D /* NFLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLabel.swift; sourceTree = "<group>"; };
 		B872DFAA26FB189700643D4D /* NFLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLabelStyle.swift; sourceTree = "<group>"; };
-		B899DED526F8C6700050A6F6 /* NFIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFIconView.swift; sourceTree = "<group>"; };
+		B872DFAD26FB728900643D4D /* NFLITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLITextField.swift; sourceTree = "<group>"; };
+		B872DFB326FB73AD00643D4D /* NFStatesIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFStatesIconView.swift; sourceTree = "<group>"; };
+		B872DFB526FB9BC400643D4D /* NFStatesIconViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFStatesIconViewStyle.swift; sourceTree = "<group>"; };
+		B872DFB726FB9C7D00643D4D /* NFLITextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFLITextFieldStyle.swift; sourceTree = "<group>"; };
+		B872DFB926FC5D0C00643D4D /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		B872DFBB26FD0B0400643D4D /* NFRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFRoundedButton.swift; sourceTree = "<group>"; };
+		B872DFBE26FD0B4F00643D4D /* NFRoundedButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFRoundedButtonStyle.swift; sourceTree = "<group>"; };
+		B872DFC426FD0CD700643D4D /* NFImageConvertableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFImageConvertableObject.swift; sourceTree = "<group>"; };
+		B899DED526F8C6700050A6F6 /* NFButtonIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFButtonIconView.swift; sourceTree = "<group>"; };
 		B899DEDD26F8CABB0050A6F6 /* Ex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B899DEDF26F8CABB0050A6F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B899DEE126F8CABB0050A6F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -161,6 +177,9 @@
 		B86FD44226F771950047AE29 /* NFUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				B872DFC326FD0CC300643D4D /* Image */,
+				B872DFC026FD0C4A00643D4D /* Extensions */,
+				B872DFB126FB735A00643D4D /* Icons */,
 				B872DFA726FB162000643D4D /* NFLabel */,
 				B872DFA226FA68E100643D4D /* Metrics */,
 				B872DF8C26F9D3D200643D4D /* NFFormView */,
@@ -170,6 +189,7 @@
 				B86FD44326F771950047AE29 /* NFUIKit.h */,
 				B86FD44426F771950047AE29 /* Info.plist */,
 				B86FD49026F7AA9E0047AE29 /* Media.xcassets */,
+				B872DFB926FC5D0C00643D4D /* UIColor+Hex.swift */,
 			);
 			path = NFUIKit;
 			sourceTree = "<group>";
@@ -230,6 +250,7 @@
 		B86FD48326F7A0820047AE29 /* NFTextField */ = {
 			isa = PBXGroup;
 			children = (
+				B872DFAF26FB729500643D4D /* Templates */,
 				B86FD49226F7AB930047AE29 /* Childs */,
 				B86FD48626F7A14B0047AE29 /* NFTextField.swift */,
 				B86FD48A26F7A2B40047AE29 /* NFTextFieldStyle.swift */,
@@ -259,19 +280,11 @@
 		B872DF8C26F9D3D200643D4D /* NFFormView */ = {
 			isa = PBXGroup;
 			children = (
-				B872DF9426FA27E800643D4D /* InputViews */,
+				B872DF9226FA277F00643D4D /* NFFormInputView.swift */,
 				B872DF8D26F9D3E500643D4D /* NFFormView.swift */,
 				B872DF9926FA2DAF00643D4D /* NFFormStyle.swift */,
 			);
 			path = NFFormView;
-			sourceTree = "<group>";
-		};
-		B872DF9426FA27E800643D4D /* InputViews */ = {
-			isa = PBXGroup;
-			children = (
-				B872DF9226FA277F00643D4D /* NFFormInputView.swift */,
-			);
-			path = InputViews;
 			sourceTree = "<group>";
 		};
 		B872DF9E26FA677400643D4D /* Templates */ = {
@@ -307,21 +320,80 @@
 			path = NFLabel;
 			sourceTree = "<group>";
 		};
+		B872DFAF26FB729500643D4D /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				B872DFB026FB72BF00643D4D /* NFLinedTextField */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		B872DFB026FB72BF00643D4D /* NFLinedTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B872DFAD26FB728900643D4D /* NFLITextField.swift */,
+				B872DFB726FB9C7D00643D4D /* NFLITextFieldStyle.swift */,
+			);
+			path = NFLinedTextField;
+			sourceTree = "<group>";
+		};
+		B872DFB126FB735A00643D4D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				B872DFB226FB739B00643D4D /* NFStatesIconView */,
+				B899DED426F8C6270050A6F6 /* NFButtonIcon */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		B872DFB226FB739B00643D4D /* NFStatesIconView */ = {
+			isa = PBXGroup;
+			children = (
+				B872DFB326FB73AD00643D4D /* NFStatesIconView.swift */,
+				B872DFB526FB9BC400643D4D /* NFStatesIconViewStyle.swift */,
+			);
+			path = NFStatesIconView;
+			sourceTree = "<group>";
+		};
+		B872DFBD26FD0B2700643D4D /* NFRoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				B872DFBB26FD0B0400643D4D /* NFRoundedButton.swift */,
+				B872DFBE26FD0B4F00643D4D /* NFRoundedButtonStyle.swift */,
+			);
+			path = NFRoundedButton;
+			sourceTree = "<group>";
+		};
+		B872DFC026FD0C4A00643D4D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B872DFC326FD0CC300643D4D /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B872DFC426FD0CD700643D4D /* NFImageConvertableObject.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		B899DED326F8C5E40050A6F6 /* Buttons */ = {
 			isa = PBXGroup;
 			children = (
-				B899DED426F8C6270050A6F6 /* NFIcon */,
+				B872DFBD26FD0B2700643D4D /* NFRoundedButton */,
 				B86FD47426F77B780047AE29 /* NFButton */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
 		};
-		B899DED426F8C6270050A6F6 /* NFIcon */ = {
+		B899DED426F8C6270050A6F6 /* NFButtonIcon */ = {
 			isa = PBXGroup;
 			children = (
-				B899DED526F8C6700050A6F6 /* NFIconView.swift */,
+				B899DED526F8C6700050A6F6 /* NFButtonIconView.swift */,
 			);
-			path = NFIcon;
+			path = NFButtonIcon;
 			sourceTree = "<group>";
 		};
 		B899DEDE26F8CABB0050A6F6 /* Ex */ = {
@@ -516,11 +588,18 @@
 				B86FD48D26F7A31F0047AE29 /* NFTextFieldMask.swift in Sources */,
 				B86FD47326F77B4A0047AE29 /* NFButton.swift in Sources */,
 				B872DF8E26F9D3E500643D4D /* NFFormView.swift in Sources */,
+				B872DFBA26FC5D0C00643D4D /* UIColor+Hex.swift in Sources */,
+				B872DFC526FD0CD800643D4D /* NFImageConvertableObject.swift in Sources */,
 				B872DFA426FA68EF00643D4D /* Metric.swift in Sources */,
+				B872DFBC26FD0B0400643D4D /* NFRoundedButton.swift in Sources */,
+				B872DFB826FB9C7D00643D4D /* NFLITextFieldStyle.swift in Sources */,
 				B86FD49426F7ABC20047AE29 /* NFPasswordTextField.swift in Sources */,
+				B872DFB626FB9BC500643D4D /* NFStatesIconViewStyle.swift in Sources */,
 				B86FD48726F7A14B0047AE29 /* NFTextField.swift in Sources */,
+				B872DFAE26FB728900643D4D /* NFLITextField.swift in Sources */,
 				B86FD47626F77B880047AE29 /* NFButtonStyle.swift in Sources */,
-				B899DED626F8C6700050A6F6 /* NFIconView.swift in Sources */,
+				B899DED626F8C6700050A6F6 /* NFButtonIconView.swift in Sources */,
+				B872DFBF26FD0B4F00643D4D /* NFRoundedButtonStyle.swift in Sources */,
 				B86FD47D26F780A80047AE29 /* NFViewController.swift in Sources */,
 				B872DF9A26FA2DAF00643D4D /* NFFormStyle.swift in Sources */,
 				B872DFA926FB163700643D4D /* NFLabel.swift in Sources */,
@@ -528,6 +607,7 @@
 				B872DFAB26FB189700643D4D /* NFLabelStyle.swift in Sources */,
 				B872DFA626FA6E6300643D4D /* NFViewControllerStyle.swift in Sources */,
 				B872DFA126FA679C00643D4D /* NFLoginViewController.swift in Sources */,
+				B872DFB426FB73AD00643D4D /* NFStatesIconView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -36,6 +36,7 @@ class NFLabel: UIView {
         let stackView = UIStackView(frame: .zero)
         stackView.axis = .vertical
         stackView.distribution = .fillProportionally
+        stackView.spacing = Metric.module
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()

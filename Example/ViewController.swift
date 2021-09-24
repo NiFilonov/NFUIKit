@@ -1,3 +1,4 @@
+import UIKit
 import NFUIKit
 
 class ViewController: NFViewController {
@@ -18,8 +19,12 @@ class ViewController: NFViewController {
             .loginViewController(with: AppStyle.ViewControllerStyle.basic,
                                  formStyle: AppStyle.FormStyle.login,
                                  buttonStyle: AppStyle.ButtonStyle.cancel,
+                                 emailTextFieldStyle: AppStyle.TextFieldStyle.formEmailTextField,
+                                 passwordTextFieldStyle: AppStyle.TextFieldStyle.formPasswordTextField,
                                  mainTitleText: "Login".mainTitle,
-                                 descriptionTitleText: "Please sign in to continue".descriptionTitle)
+                                 descriptionTitleText: "Please sign in to continue".descriptionTitle,
+                                 placeholderFont: UIFont.systemFont(ofSize: 14.0, weight: .black),
+                                 placeholderColor: .lightGray)
         navigationController?.pushViewController(login, animated: true)
     }
     

@@ -15,6 +15,19 @@ class AppStyle {
         }
     }
     
+    enum TextFieldStyle {
+        static var formEmailTextField: NFLITextFieldStyle {
+            return NFLITextFieldStyle(lineColor: UIColor(rgb: 0xf6f5f8),
+                                      iconStyle: NFStatesIconViewStyle(activeIcon: UIImage(named: "envelope")!,
+                                                                       inactiveIcon: UIImage(named: "envelope")!))
+        }
+        static var formPasswordTextField: NFLITextFieldStyle {
+            return NFLITextFieldStyle(lineColor: UIColor(rgb: 0xf6f5f8),
+                                      iconStyle: NFStatesIconViewStyle(activeIcon: UIImage(named: "password")!,
+                                                                       inactiveIcon: UIImage(named: "password")!))
+        }
+    }
+    
     enum ButtonStyle {
         static var main: NFButtonStyle {
             return NFButtonStyle(font: .systemFont(ofSize: 15.0, weight: .bold),
@@ -36,11 +49,11 @@ class AppStyle {
 extension String {
     
     var mainTitle: NSAttributedString {
-        return NSAttributedString(string: self, attributes: [.foregroundColor: UIColor.black, .font: UIFont.systemFont(ofSize: 30.0, weight: .heavy)])
+        return NSAttributedString(string: self, attributes: [.foregroundColor: UIColor.black, .font: UIFont.systemFont(ofSize: 42.0, weight: .black)])
     }
     
     var descriptionTitle: NSAttributedString {
-        return NSAttributedString(string: self, attributes: [.foregroundColor: UIColor.lightGray, .font: UIFont.systemFont(ofSize: 14.0, weight: .regular)])
+        return NSAttributedString(string: self, attributes: [.foregroundColor: UIColor.lightGray, .font: UIFont.systemFont(ofSize: 18.0, weight: .black)])
     }
     
 }
