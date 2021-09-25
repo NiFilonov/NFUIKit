@@ -4,7 +4,7 @@ public struct NFRoundedButtonStyle {
     
     public init(
         title: NSAttributedString,
-        background: NFImageConvertableObject,
+        background: UIImage,
         textColor: UIColor
     ) {
         self.title = title
@@ -14,7 +14,7 @@ public struct NFRoundedButtonStyle {
     
     var title: NSAttributedString
     
-    var background: NFImageConvertableObject
+    var background: UIImage
     
     var textColor: UIColor
     

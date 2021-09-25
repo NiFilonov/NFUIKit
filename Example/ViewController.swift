@@ -12,6 +12,7 @@ class ViewController: NFViewController {
         
         button.setStyle(AppStyle.ButtonStyle.cancel)
         button.addTarget(self, action: #selector(showLogin), for: .touchUpInside)
+        
     }
     
     @objc func showLogin() {

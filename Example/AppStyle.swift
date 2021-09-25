@@ -11,7 +11,8 @@ class AppStyle {
     
     enum FormStyle {
         static var login: NFFormStyle {
-            return NFFormStyle(backgroundColor: .clear)
+            return NFFormStyle(backgroundColor: .clear,
+                               buttonStyle: ButtonStyle.login)
         }
     }
     
@@ -42,6 +43,12 @@ class AppStyle {
                                    cornerRadius: 16.0,
                                    textColor: .yellow)
         }
+        
+        static var login: NFRoundedButtonStyle {
+            return NFRoundedButtonStyle(title: "SIGN UP".buttonTitle,
+                                        background: UIImage(color: .orange)!,
+                                        textColor: .white)
+        }
     }
     
 }
@@ -54,6 +61,24 @@ extension String {
     
     var descriptionTitle: NSAttributedString {
         return NSAttributedString(string: self, attributes: [.foregroundColor: UIColor.lightGray, .font: UIFont.systemFont(ofSize: 18.0, weight: .black)])
+    }
+    
+    var buttonTitle: NSAttributedString {
+        return NSAttributedString(string: self, attributes: [.foregroundColor: UIColor.white, .font: UIFont.systemFont(ofSize: 18.0, weight: .black)])
+    }
+    
+}
+
+extension CAGradientLayer {
+    
+    enum Templates {
+        
+        static var loginButton: CAGradientLayer {
+            let layer = CAGradientLayer()
+            layer.colors = [UIColor.yellow, UIColor.orange]
+            return layer
+        }
+    
     }
     
 }

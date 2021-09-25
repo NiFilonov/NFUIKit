@@ -6,22 +6,12 @@ open class NFRoundedButton: UIButton {
     
     open override func layoutSubviews() {
         super.layoutSubviews()
-        updateUI()
+        layer.cornerRadius = bounds.height / 2
     }
     
-    open func setStyle(_ style: NFButtonStyle) {
-        self.style = style
-    }
-    
-    private func updateUI() {
-        guard let style = style else {
-            print("NFButton - style doesn't setted")
-            return
-        }
-        titleLabel?.font = style.font
-        backgroundColor = style.backgroundColor
-        layer.cornerRadius = style.cornerRadius
+    open func setStyle(_ style: NFRoundedButtonStyle) {
+        setAttributedTitle(style.title, for: .normal)
+        setBackgroundImage(style.background, for: .normal)
         setTitleColor(style.textColor, for: .normal)
     }
-    
 }

@@ -12,6 +12,7 @@ public class NFFormView: UIView {
         let stackView = UIStackView()
         stackView.axis = .vertical
         stackView.distribution = .fillEqually
+        stackView.alignment = .trailing
         stackView.spacing = 30
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -24,6 +25,12 @@ public class NFFormView: UIView {
         return view
     }()
     
+    private lazy var actionButton: NFRoundedButton = {
+        let button = NFRoundedButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        return button
+    }()
+    
     private var items: [NFFormInputItem] = []
     
     public override func layoutSubviews() {
@@ -32,6 +39,8 @@ public class NFFormView: UIView {
     
     public func setStyle(_ style: NFFormStyle) {
         backgroundColor = style.backgroundColor
+        
+        actionButton.setStyle(style.buttonStyle)
     }
     
     public func addInputViews(_ inputViews: [NFFormInputItem]) {
@@ -39,11 +48,7 @@ public class NFFormView: UIView {
         inputViews.forEach({
             self.stackView.addArrangedSubview($0.view)
         })
-    }
-    
-    public func addInputView(_ inputView: NFFormInputItem) {
-        items.append(inputView)
-        stackView.addArrangedSubview(inputView.view)
+        self.stackView.addArrangedSubview(actionButton)
     }
     
     private func setupUI() {
@@ -72,6 +77,5 @@ public class NFFormView: UIView {
             stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: .zero)
         ])
     }
-    
     
 }
